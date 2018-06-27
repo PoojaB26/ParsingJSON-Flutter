@@ -27,6 +27,8 @@ flutter:
   assets:
         - assets/crossword.json
         - assets/photo.json
+        - assets/address.json
+
 
   # To add assets to your application, add an assets section, like this:
   # assets:

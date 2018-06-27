@@ -1,11 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_json/crossword_services.dart';
 import 'package:flutter_json/photo_services.dart';
+import 'package:flutter_json/address_services.dart';
+
 
 void main() {
   runApp(new MyApp());
   loadCrossword();
   loadPhotos();
+  loadAddress();
 
 }
 
