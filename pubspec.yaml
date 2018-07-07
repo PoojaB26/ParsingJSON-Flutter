@@ -31,6 +31,7 @@ flutter:
         - assets/student.json
         - assets/shape.json
         - assets/college.json
+        - assets/page.json
 
 
   # To add assets to your application, add an assets section, like this:
