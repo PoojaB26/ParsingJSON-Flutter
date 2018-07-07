@@ -1,0 +1,14 @@
+{
+  "id":1,
+  "name":"ProductName",
+  "images":[
+    {
+      "id":11,
+      "imageName":"xCh-rhy"
+    },
+    {
+      "id":31,
+      "imageName":"fjs-eun"
+    }
+  ]
+}

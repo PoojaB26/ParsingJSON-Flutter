@@ -8,10 +8,13 @@ class Address {
 });
 
   factory Address.fromJson(Map<String, dynamic> parsedJson) {
-    var streets = parsedJson['streets'];
-    List<String> streetsList = new List<String>.from(streets);
+    var streetsFromJson  = parsedJson['streets'];
+    //print(streetsFromJson.runtimeType);
+    List<String> streetsList = new List<String>.from(streetsFromJson);
     return new Address(
         city: parsedJson['city'],
         streets: streetsList,
     );
-  }}
+  }
+
+}

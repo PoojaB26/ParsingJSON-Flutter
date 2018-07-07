@@ -25,9 +25,12 @@ flutter:
   # the material Icons class.
   uses-material-design: true
   assets:
-        - assets/crossword.json
+        - assets/product.json
         - assets/photo.json
         - assets/address.json
+        - assets/student.json
+        - assets/shape.json
+        - assets/college.json
 
 
   # To add assets to your application, add an assets section, like this:

@@ -5,15 +5,16 @@ class PhotosList {
     this.photos,
 });
 
-  factory PhotosList.fromJson(List<dynamic> toJson) {
+  factory PhotosList.fromJson(List<dynamic> parsedJson) {
 
     List<Photo> photos = new List<Photo>();
-    photos = toJson.map((i)=>Photo.fromJson(i)).toList();
+    photos = parsedJson.map((i)=>Photo.fromJson(i)).toList();
 
     return new PhotosList(
-        photos: photos,
+      photos: photos
     );
-  }}
+  }
+}
 
 class Photo{
   final String id;

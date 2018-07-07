@@ -1,0 +1,19 @@
+{
+  "name": "Pooja",
+  "majors":["CS", "Maths"],
+  "subjects": [
+    {
+    "subjectName": "math",
+    "teacher":"Ms S"
+    },
+    {
+      "subjectName": "science",
+      "teacher":"Ms P"
+    }
+    ]
+}
+
+
+
+
+

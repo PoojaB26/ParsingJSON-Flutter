@@ -1,14 +1,18 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_json/crossword_services.dart';
-import 'package:flutter_json/photo_services.dart';
-import 'package:flutter_json/address_services.dart';
+import 'package:flutter_json/services/product_services.dart';
+import 'package:flutter_json/services/photo_services.dart';
+import 'package:flutter_json/services/address_services.dart';
+import 'package:flutter_json/services/student_services.dart';
+import 'package:flutter_json/services/shape_services.dart';
 
 
 void main() {
   runApp(new MyApp());
-  loadCrossword();
+  loadProduct();
   loadPhotos();
   loadAddress();
+  loadStudent();
+  loadShape();
 
 }
 
