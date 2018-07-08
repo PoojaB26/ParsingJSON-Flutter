@@ -1,7 +1,7 @@
 class Student{
   String studentId;
   String studentName;
-  String studentScores;
+  int studentScores;
 
   Student({
     this.studentId,
@@ -13,7 +13,7 @@ class Student{
     return Student(
       studentId: parsedJson['id'],
       studentName : parsedJson['name'],
-      studentScores : parsedJson ['score'].toString()
+      studentScores : parsedJson ['score']
     );
   }
 }
