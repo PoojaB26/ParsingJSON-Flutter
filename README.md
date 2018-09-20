@@ -1,8 +1,7 @@
-# flutter_json
+# Parsing complex JSON in Flutter
 
-Working with different structures of JSON in Flutter
+Gives a detailed explanation of working with simple and complex JSON structures using dart:convert library in Flutter along with a sample project with 6 examples to experiment with.
 
-## Getting Started
+## Tutorial 
 
-For help getting started with Flutter, view our online
-[documentation](https://flutter.io/).
+Read the article [here](https://medium.com/flutter-community/parsing-complex-json-in-flutter-747c46655f51)
