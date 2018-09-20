@@ -5,3 +5,11 @@ Gives a detailed explanation of working with simple and complex JSON structures 
 ## Tutorial 
 
 Read the article [here](https://medium.com/flutter-community/parsing-complex-json-in-flutter-747c46655f51)
+
+## Types of JSON structures
+* Simple map
+* Simple structure with arrays
+* Simple nested structures
+* Nested structure with Lists
+* List of maps
+* Complex nested structures
