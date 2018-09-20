@@ -5,6 +5,7 @@ import 'package:flutter_json/services/address_services.dart';
 import 'package:flutter_json/services/student_services.dart';
 import 'package:flutter_json/services/shape_services.dart';
 import 'package:flutter_json/services/bakery_services.dart';
+import 'package:flutter_json/services/page_services.dart';
 
 void main() {
   runApp(new MyApp());
@@ -14,7 +15,7 @@ void main() {
   loadStudent();
   loadShape();
   loadBakery();
-
+  loadPage();
 }
 
 

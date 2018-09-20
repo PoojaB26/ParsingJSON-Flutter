@@ -7,7 +7,7 @@ import 'package:flutter_json/model/bakery_model.dart';
 
 
 Future<String> _loadBakeryAsset() async {
-  return await rootBundle.loadString('assets/complex.json');
+  return await rootBundle.loadString('assets/bakery.json');
 }
 
 Future loadBakery() async {
