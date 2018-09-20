@@ -4,7 +4,7 @@ import 'package:flutter_json/services/photo_services.dart';
 import 'package:flutter_json/services/address_services.dart';
 import 'package:flutter_json/services/student_services.dart';
 import 'package:flutter_json/services/shape_services.dart';
-
+import 'package:flutter_json/services/bakery_services.dart';
 
 void main() {
   runApp(new MyApp());
@@ -13,6 +13,7 @@ void main() {
   loadAddress();
   loadStudent();
   loadShape();
+  loadBakery();
 
 }
 
