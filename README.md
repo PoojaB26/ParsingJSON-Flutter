@@ -24,7 +24,7 @@ Let's take [this](https://jsonplaceholder.typicode.com/posts) API as an example.
 
 Take a look at [post_model.dart](https://github.com/PoojaB26/ParsingJSON-Flutter/blob/master/lib/model/post_model.dart) for the model class and utility methods. I produced it using this [converter tool](https://app.quicktype.io/)
 
-#### GET allPosts
+#### GET getAllPosts
 
 ```dart
 //services.dart
@@ -47,12 +47,12 @@ FutureBuilder<Post>(
         )
 ```
 
-#### GET POST{id}
+#### GET getPost (to get a particular POST by id)
 
 ```dart
 //services.dart
 Future<Post> getPost() async{
-  final response = await http.get('$url/1');
+  final response = await http.get('$url/1'); // the number is the id of the item being accessed
   return postFromJson(response.body);
 }
 ```
