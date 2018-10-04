@@ -96,7 +96,7 @@ Future<http.Response> createPost(Post post) async{
     
     createPost(post).then((response){
         if(response.statusCode > 200)
-        print(response.body);
+          print(response.body);
         else
           print(response.statusCode);
     }).catchError((error){
