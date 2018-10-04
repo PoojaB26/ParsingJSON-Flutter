@@ -36,7 +36,7 @@ Future<List<Post>> getAllPosts() async {
 
 ```dart
 // As a part of your UI widget, e.g body of Scaffold widget
-FutureBuilder<Post>(
+FutureBuilder<List<Post>>(
             future: getAllPosts(),
             builder: (context, snapshot) {
               if(snapshot.hasData)
