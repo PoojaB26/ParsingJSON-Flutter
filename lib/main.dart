@@ -58,8 +58,15 @@ class Home extends StatelessWidget{
             future: getPost(),
             builder: (context, snapshot) {
               callAPI();
-              if(snapshot.hasData)
+              if(snapshot.connectionState == ConnectionState.done) {
+
+                if(snapshot.hasError){
+                  return Text("Error");
+                }
+
                 return Text('Title from Post JSON : ${snapshot.data.title}');
+
+              }
               else
                 return CircularProgressIndicator();
             }

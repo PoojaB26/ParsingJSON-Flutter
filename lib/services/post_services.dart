@@ -19,10 +19,21 @@ Future<Post> getPost() async{
 Future<http.Response> createPost(Post post) async{
   final response = await http.post('$url',
       headers: {
-        HttpHeaders.contentTypeHeader: 'application/json'
+        HttpHeaders.contentTypeHeader: 'application/json',
+        HttpHeaders.authorizationHeader : ''
       },
       body: postToJson(post)
   );
-
   return response;
 }
+
+//Future<Post> createPost(Post post) async{
+//  final response = await http.post('$url',
+//      headers: {
+//        HttpHeaders.contentTypeHeader: 'application/json'
+//      },
+//      body: postToJson(post)
+//  );
+//
+//  return postFromJson(response.body);
+//}
